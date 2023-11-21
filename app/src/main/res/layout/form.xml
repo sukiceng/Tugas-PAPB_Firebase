@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FormActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nama_pengadu"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Nama"
+        android:paddingStart="30dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/desc_keluhan"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:hint="Deskripsi keluhan"
+        android:paddingStart="30dp"
+        android:paddingTop="50dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple"/>
+
+</RelativeLayout>
