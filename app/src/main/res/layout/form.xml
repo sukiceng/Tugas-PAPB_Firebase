@@ -26,16 +26,37 @@
         android:hint="Deskripsi keluhan"
         android:paddingStart="30dp"
         android:paddingTop="50dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tanggal_lapor"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Tanggal"
+        android:paddingStart="30dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/update_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tanggal_lapor"
+        android:layout_marginEnd="200dp"
+        android:layout_alignParentEnd="true"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple"/>
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/save_button"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginTop="200dp"
+        android:layout_below="@id/tanggal_lapor"
         android:layout_marginEnd="30dp"
         android:layout_alignParentEnd="true"
         android:text="Save"
         android:textColor="@color/white"
         android:textAllCaps="false"
-        android:backgroundTint="@color/purple"/>
+        android:backgroundTint="@color/darker_purple"/>
 
 </RelativeLayout>
